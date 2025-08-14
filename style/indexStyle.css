@@ -130,6 +130,7 @@ body {
     background-color: white;
 }
 .tb-number {
+    font-weight: 300;
     text-align: left;
 }
 
@@ -170,12 +171,16 @@ a {
         transform: rotate(360deg);
     }
 }
-/* wide desktop size
+/* wide desktop size*/
 @media screen and (min-width:1441px) {
     * {
-        font-size: 1.5rem;
+        font-size: 18px;
     }
-} */
+
+    .img-logo {
+        max-width: 1240px;
+    }
+} 
 
 /* tablet landscape */
 @media screen and (max-width: 1024px) {
@@ -215,7 +220,7 @@ a {
     }
 
     .txt-title {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
     
     .img-logo {
@@ -247,6 +252,6 @@ a {
     }
 
     .anchor-holder > a {
-        margin-bottom: rem;
+        margin-bottom: 1rem;
     }
 }
